@@ -7,6 +7,7 @@
   max-width: 100%;
   font-family: 'Patrick Hand', cursive;
   font-size: 25px;
+  letter-spacing: 0.1em;
   
 }
 body{
@@ -37,7 +38,10 @@ navbar-toggler ml-aut{
 .icons{
   width:100px;
   padding-right: 50%;
-  
+  font-family: 'Patrick Hand', cursive;
+}
+.row{
+  font-family: 'Patrick Hand', cursive;
 }
 .profileImg{
   max-width: 80%;
@@ -72,9 +76,11 @@ navbar-toggler ml-aut{
 .introText{
   color: rgb(245, 244, 244);
   left: 20%;
+  font-family: 'Patrick Hand', cursive;
 }
 .pinkTitle{
   color: #f5f3f5;
+  
 }
 .myName{
   margin-bottom: 6%;
@@ -84,6 +90,7 @@ navbar-toggler ml-aut{
   margin-bottom: 2%;
   font-family: 'Patrick Hand', cursive;
 }
+
 .contactimg{
   height:100%;
   width:50%;
@@ -97,19 +104,18 @@ navbar-toggler ml-aut{
   background-size: 100%;
   color: white;
   background-repeat: no-repeat;
+  font-family: 'Patrick Hand', cursive;
   
- 
 }
 .projectImg{
   width:60%;
-  height:50%;
-  margin-bottom:5%;
- 
+  height:40%;
+  margin-bottom:2%;
   }
 .sections{
   padding: 10%;
   min-height: 90%;
-
+  font-family: 'Patrick Hand', cursive;
 }
 .projects{
   color: white; 
@@ -123,25 +129,34 @@ margin-left: 40%;
 }
 .skillsDiv{
   margin-left: 2%;
+  font-family: 'Patrick Hand', cursive;
 }
 .contact{
   margin-left: 40%;
 }
-
+.container{
+  color: blanchedalmond;
+  font-family: 'Patrick Hand', cursive;
+}
+.fa-html5, .fa-js, .fa-css3-alt, .fa-node, .fa-react, .fa-github, .fa-npm, .fa-bootstrap{
+  font-size: 60px;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
   *{
-    font-size: 18px;    
+    font-size: 10px; 
+    letter-spacing: 0.1em;   
   }  
   .projectSection{
     padding-left: 20%;
   }
   .text{
-    font-size: 40px;
+    font-size: 10px;
 }
 .tools{
   letter-spacing: 0.2em;
 }
+
 @media (max-width: 768px) {
   *{
     font-size: 13px;    
@@ -160,6 +175,7 @@ margin-left: 40%;
 }
   .projectImg{
   width: 65%;
+  height:40%;
 }
 .logoImg{
   display: none;
@@ -170,12 +186,14 @@ margin-left: 40%;
     font-size: 15px;
     margin:0;
     padding:0;
+    letter-spacing: 0.1em;
   }
   .cv{
     margin-left: 30%;
   }
   .skillsDiv{
     margin-left: 10%;
+    margin: 40%;
   }
   .contact{
     margin-left: 35%;
@@ -190,13 +208,14 @@ margin-left: 40%;
   .projectSection{
     padding-left: 15%;
   }
-
+  
 }
 @media (max-width: 368px){
   *{
-    font-size: 15px;
+    font-size: 20px;
     margin:0;
     padding:0;
+    letter-spacing: 0.1em;
   }
   .contact{
     padding-left: 0;
@@ -206,6 +225,9 @@ margin-left: 40%;
   }
   .projectImg{
     width: 100%;
+    height:40%;
+
   }
+  
 }
 
