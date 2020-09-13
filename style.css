@@ -141,6 +141,12 @@ margin-left: 40%;
 .fa-html5, .fa-js, .fa-css3-alt, .fa-node, .fa-react, .fa-github, .fa-npm, .fa-bootstrap{
   font-size: 60px;
 }
+.fa-github-alt, .fa-envelope, .fa-linkedin{
+  font-size: 100px;
+  color: white;
+  height: 100px;
+    width: 250px;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
   *{
@@ -156,7 +162,10 @@ margin-left: 40%;
 .tools{
   letter-spacing: 0.2em;
 }
-
+.fa-github-alt, .fa-envelope, .fa-linkedin{
+ 
+    width: 180px;
+}
 @media (max-width: 768px) {
   *{
     font-size: 13px;    
@@ -180,6 +189,7 @@ margin-left: 40%;
 .logoImg{
   display: none;
 }
+
 }
 @media (max-width: 576px) {
   *{
@@ -207,8 +217,8 @@ margin-left: 40%;
   }
   .projectSection{
     padding-left: 15%;
-  }
   
+  }
 }
 @media (max-width: 368px){
   *{
